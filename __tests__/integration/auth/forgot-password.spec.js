@@ -19,7 +19,7 @@ const user = {
 
 const FORGOT_PASSWORD_ENDPOINT = '/api/v1/auth/passwords/email';
 
-describe('The password reset process', () => {
+describe('The password reset request process', () => {
     beforeAll(async () => {
         await User.deleteMany({});
 
