@@ -7,9 +7,6 @@ import User from '@models/User';
 import { connect, disconnect } from '@test/utils/mongoose';
 import Response from '@test/utils/response';
 import authMiddleware from '@middleware/auth';
-const time = require('../../../utils/time');
-const sinon = require('sinon');
-sinon.stub(time, 'setTimeout');
 
 describe('The Auth middleware', () => {
 

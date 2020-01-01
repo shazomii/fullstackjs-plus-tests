@@ -9,9 +9,6 @@ import { connect, disconnect } from '@test/utils/mongoose';
 import Bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
 import config from '@config';
-const time = require('../../../utils/time');
-const sinon = require('sinon');
-sinon.stub(time, 'setTimeout');
 
 describe('The User model', () => {
 
